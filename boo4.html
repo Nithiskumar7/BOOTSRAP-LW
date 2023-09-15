@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            font-style: italic;
+            color: rgb(4, 137, 82);
+        }
+
+        span {
+            color: rgb(25, 25, 24);
+        }
+
+        .navbar {
+            background-color: rgb(4, 180, 122);
+            cursor: pointer;
+            padding: 15px;
+        }
+
+        form {
+            margin-top: 30px;
+            width: 37%;
+            margin-left: 500px;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <!--================= Navbar Icon ===================-->
+    <center>
+        <h1>OPPO-<span>STORE</span></h1>
+    </center>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <img src="img/Oppo-Logo.wine.png" alt="" style="height: 50px;" class="">
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="boots2.html" class="glyphicon glyphicon-home" data-toggle="tooltip" title="Home">Home</a></li>
+                <li><a href="boots2.html" class="glyphicon glyphicon-road" data-toggle="tooltip" title="About">About</a></li>
+                <li><a href="about.html" class="glyphicon glyphicon-piggy-bank" data-toggle="tooltip" title="Shop">Shop</a></li>
+                <li><a href="boot5.html" class="glyphicon glyphicon-apple" data-toggle="tooltip title="Collections">Collections</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="boot3.html" class="glyphicon glyphicon-user" data-toggle="tooltip" title="LogIn">LogIn</a></li>
+                <li><a href="#" class="glyphicon glyphicon-envelope " data-toggle="tooltip" title="SignIn">SignIn</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="container-fluid">
+        <center>
+            <h1>Registration<span>Form</span></h1>
+        </center>
+        <form action="">
+            <div class="form-group">
+                <label for="text">Username:</label>
+                <input type="text" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Passwowrd:</label>
+                <input type="password" class="form-control" id="pass" name="password">
+            </div>
+            <div class="form-group">
+                <label for="password"> Confirm Passwowrd:</label>
+                <input type="password" class="form-control" id="pass" name="password">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success">Sign In</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
